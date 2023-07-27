@@ -1,0 +1,62 @@
+#contact h2{
+    color:rgb(94 234 212/1);
+}
+
+#contact{
+    width: 100%;
+}
+
+.contact__options{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+
+}
+
+.contact__option{
+    background: rgba(94, 234, 213, 0.093);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition:var(--transition);
+    width:400px;
+
+    
+}
+
+.contact__option:hover{
+    background: transparent;
+    border-color:rgb(94 234 212/1);
+}
+
+.contact__option__icon{
+    font-size: 1.5rem;
+    margin-bottom:0.5rem;
+}
+
+.contact__option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size:0.7rem ;
+}
+
+@media screen and (max-width: 1024px){
+    .contact__options{
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;  
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contact__options{
+       width:100%;
+       justify-content: center;
+       
+    }
+}
+

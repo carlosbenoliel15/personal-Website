@@ -1,0 +1,148 @@
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+  }
+  
+  .cta {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+  
+  .header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+  }
+  
+  .header__socials > a {
+    font-size: 22px;
+  }
+  
+  .header__socials::after {
+    content: " ";
+    width: 1px;
+    height: 2rem;
+    background-color: rgb(94 234 212/1);
+  }
+  
+  .me {
+    position: relative;
+    width: 35rem;
+    height: 35rem;
+    margin: 9rem auto 0;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  .me::before,
+  .me::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(94, 234, 212), transparent);
+    z-index: -1;
+  }
+  
+  .me::before {
+    transform: rotate(-36deg);
+    transform-origin: 50% 0;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  }
+  
+  .me::after {
+    transform: rotate(16deg);
+    transform-origin: 100% 0%;
+    clip-path: polygon(20% 100%, 0% 0%, 100% 100%);
+  }
+  
+  .me img {
+    width: 28rem;
+    margin-left: 50px;
+    margin-top: 80px;
+    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    border-width: 0 45px 35px;
+
+  }
+  .wrap{
+    color: rgb(94, 234, 212);
+  }
+  
+  .scrool__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  
+  h5 {
+    font-size: 1.5rem;
+    color: #94a3b8ea;
+  }
+  
+  h1 {
+    color: #e2e8f0d6;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    header {
+      height: 68vh;
+    }
+    .me img{
+      z-index: 1;
+      opacity: 0.5;
+      width: 20rem;
+    }
+
+    .me{
+      width: 25rem;
+    }
+
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      height: 100vh;
+    }
+  
+    .header__socials,
+    .scrool__down {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .me {
+      width: 25rem;
+      height: 25rem;
+    }
+  
+    .me img {
+      width: 20rem;
+      margin-top: 50px;
+    }
+  
+    h5 {
+      font-size: 1.2rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
