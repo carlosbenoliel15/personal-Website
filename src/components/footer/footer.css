@@ -1,9 +1,8 @@
 #footer{
-    background:  rgba(94, 234, 213, 0.093);;
-    border-top:1px solid  rgb(94 234 212/1);
+   
     height:100%;
     margin-top: 7rem;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     text-align: center;
     padding: 3rem 0;
     width: 100%;
@@ -61,15 +60,15 @@ justify-content: center;
         gap: 1.5rem;
         width:80%;
         padding:0;
-        
+
         justify-content: center;
         align-items: center;
     }
 
     #footer{
-        width: auto;
+   
         flex-direction: column;
-        min-width:390px;
+        
     }
 
     .footer__socials{

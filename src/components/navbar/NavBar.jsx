@@ -14,8 +14,8 @@ const NavBar = () => {
       <a href="#header" ><AiOutlineHome/></a>
       <a href="#about" ><AiOutlineUser/></a>
       <a href="#skills" ><BiMessageAltCheck/></a>
-      <a href="#about" ><RiServiceLine/></a>
-      <a href="#about"><BiMessageAltDetail/></a>
+      <a href="#portfolio" ><RiServiceLine/></a>
+      <a href="#contact"><BiMessageAltDetail/></a>
     </nav>
   )
 }
