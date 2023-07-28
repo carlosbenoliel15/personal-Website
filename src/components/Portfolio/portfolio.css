@@ -23,6 +23,9 @@
     overflow: hidden;
      
 }
+#title{
+    color:rgb(94 234 212/1);
+}
 
 .portfolio__item h3{
     margin:1.2rem 0 2rem;

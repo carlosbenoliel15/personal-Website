@@ -36,7 +36,7 @@ function SkillsBar() {
       <div className="title-section" id="skills">
         <h2>SkillSets</h2>
         <h5>
-          To learn more about these skills, check out my <a href="https://linkedin.com/in/carlos-martins-777b75236" >LinkedIn</a> page!
+          To learn more about these skills, check out my <a href="https://linkedin.com/in/carlos-martins-777b75236"  target="_blank">LinkedIn</a> page!
         </h5>
       </div>
       <div className="content-section">

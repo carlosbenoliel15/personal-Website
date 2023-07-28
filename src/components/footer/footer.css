@@ -1,15 +1,16 @@
-footer{
+#footer{
     background:  rgba(94, 234, 213, 0.093);;
     border-top:1px solid  rgb(94 234 212/1);
+    height:100%;
     margin-top: 7rem;
     font-size: 0.9rem;
     text-align: center;
     padding: 3rem 0;
-    
-   
+    width: 100%;
+    justify-content: center;
 }
 
-footer a{
+#footer a{
     color:#c4c7ccea;
   
 }
@@ -24,10 +25,11 @@ footer a{
 .permalinks{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+justify-content: center;
     gap: 2rem;
     margin:0 auto 3rem;
     list-style-type: none;
+    padding: auto;
 }
 
 
@@ -54,25 +56,25 @@ footer a{
 
 
 @media screen and (max-width: 600px){
-    footer{
-        padding: 0;
-        margin:  3rem 0;
-    }
-    .permalinks{
+    #footer .permalinks{
         flex-direction: column;
         gap: 1.5rem;
-        width:100%;
-        padding-top: 2rem;
+        width:80%;
+        padding:0;
+        
         justify-content: center;
         align-items: center;
+    }
+
+    #footer{
+        width: auto;
+        flex-direction: column;
+        min-width:390px;
     }
 
     .footer__socials{
         margin-bottom: 2.6rem;
     }
 
-    .permalinks li{
-        padding: 0;
-        margin:0;
-        }
+    
 }
