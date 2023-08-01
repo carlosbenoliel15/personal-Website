@@ -1,7 +1,7 @@
 import React from 'react';
 import imagem from '../../assets/website-screen.PNG';
 import minesweeper from '../../assets/mineSweeper.png'
-import handclothes from '../../assets/2handclothes'
+import handclothes from '../../assets/2handclothes.png'
 import './portfolio.css';
 
 const portfolioItems = [
