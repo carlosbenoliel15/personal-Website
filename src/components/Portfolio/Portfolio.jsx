@@ -1,6 +1,7 @@
 import React from 'react';
 import imagem from '../../assets/website-screen.PNG';
 import minesweeper from '../../assets/mineSweeper.png'
+import handclothes from '../../assets/2handclothes'
 import './portfolio.css';
 
 const portfolioItems = [
@@ -20,6 +21,14 @@ const portfolioItems = [
     liveDemoLink: 'https://mine-sweeper-ten.vercel.app/index.html',
     githubLink: 'https://github.com/carlosbenoliel15/MineSweeper',
   },
+  {
+    id: 3,
+    image:handclothes,
+    title: 'Online marketplace(Desktop)',
+    description: 'MEAN Stack',
+    liveDemoLink: 'https://frontend-asw-final2handle.vercel.app/home/chat-room',
+    githubLink: 'https://github.com/carlosbenoliel15/frontendASW-Final',
+  }
   // Add more portfolio items here...
 ];
 
